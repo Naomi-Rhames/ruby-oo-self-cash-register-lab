@@ -9,6 +9,6 @@ def add_item(title, amount, quanity = 1)
 @total += amount * quanity
 end
 def apply_discount
-    @total -= @discount * @total
+    @total -= (@discount * 0.01) * @total
     end  
 end
